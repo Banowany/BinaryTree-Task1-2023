@@ -7,4 +7,18 @@ public class BinaryTree
     public BinaryTree(Node root) {
         this.root = root;
     }
+
+    private int countLeaves(Node node)
+    {
+        if (node == null)
+            return 0;
+        if (node.getLeft() == null && node.getRight() == null)
+            return 1;
+
+        return countLeaves(node.getLeft())+countLeaves(node.getRight());
+    }
+    public int countLeaves()
+    {
+        return countLeaves(root);
+    }
 }
