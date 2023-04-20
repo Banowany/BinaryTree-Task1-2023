@@ -32,4 +32,23 @@ public class BinaryTree
     {
         return countLongestPath(root);
     }
+
+    public Node getRoot() {
+        return root;
+    }
+
+    private boolean equals(Node thisNode, Node otherNode)
+    {
+        if (thisNode == null && otherNode == null)
+            return true;
+        if (thisNode == null || otherNode == null)
+            return false;
+        if (thisNode.getValue() == otherNode.getValue())
+            return equals(thisNode.getLeft(), otherNode.getLeft()) && equals(thisNode.getRight(), otherNode.getLeft());
+        return false;
+    }
+    public boolean equals(BinaryTree binaryTree)
+    {
+        return equals(root, binaryTree.getRoot());
+    }
 }
