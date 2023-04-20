@@ -21,4 +21,15 @@ public class BinaryTree
     {
         return countLeaves(root);
     }
+
+    private int countLongestPath(Node node)
+    {
+        if(node==null)
+            return 0;
+        return Math.max(countLongestPath(node.getLeft()), countLongestPath(node.getRight()))+1;
+    }
+    public int countLongestPath()
+    {
+        return countLongestPath(root);
+    }
 }

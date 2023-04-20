@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Create data structure without methods">
+    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Implement first method (leaf counter)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryTree.java" afterDir="false" />
     </list>
@@ -77,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681995276467</updated>
-      <workItem from="1681995277083" duration="1385000" />
+      <workItem from="1681995277083" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681995445747</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681996108994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implement first method (leaf counter)">
+      <created>1681996693841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681996693842</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +128,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create Node class" />
     <MESSAGE value="Create data structure without methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create data structure without methods" />
+    <MESSAGE value="Implement first method (leaf counter)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement first method (leaf counter)" />
   </component>
 </project>
