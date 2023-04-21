@@ -3,8 +3,8 @@ package org.example;
 public class Node
 {
     private final int value;
-    private Node left;
-    private Node right;
+    private Node left = null;
+    private Node right = null;
 
     public Node(int value) {
         this.value = value;
