@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Create tests for counting longest path">
+    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Create tests for counting leaves and equals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java" afterDir="false" />
     </list>
@@ -205,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681995276467</updated>
       <workItem from="1681995277083" duration="4453000" />
-      <workItem from="1682079967881" duration="8811000" />
+      <workItem from="1682079967881" duration="10108000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681995445747</created>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682083655428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create tests for counting leaves and equals">
+      <created>1682096995560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682096995560</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +304,7 @@
     <MESSAGE value="Little correct of Node and fast test in main" />
     <MESSAGE value="Little correct finding the longest path" />
     <MESSAGE value="Create tests for counting longest path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create tests for counting longest path" />
+    <MESSAGE value="Create tests for counting leaves and equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create tests for counting leaves and equals" />
   </component>
 </project>

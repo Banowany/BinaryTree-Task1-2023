@@ -7,14 +7,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class BinaryTreeTest {
 
     @Test
-    void countLeavesPathInEmptyTree()
+    void countLeavesInEmptyTree()
     {
         BinaryTree binaryTree = new BinaryTree(null);
         assertEquals(0, binaryTree.countLeaves());
     }
 
     @Test
-    void countLeavesPathInSingleNodeTree()
+    void countLeavesInSingleNodeTree()
     {
         Node node = new Node(9);
         BinaryTree binaryTree = new BinaryTree(node);
@@ -22,7 +22,7 @@ class BinaryTreeTest {
     }
 
     @Test
-    void countLeavesPathInSingleBranchTree()
+    void countLeavesInSingleBranchTree()
     {
         Node node1 = new Node(5);
         Node node2 = new Node(7);
@@ -40,7 +40,7 @@ class BinaryTreeTest {
     }
 
     @Test
-    void countLeavesPathInTreeWithTwoBranches()
+    void countLeavesInTreeWithTwoBranches()
     {
         Node nodel0p = new Node(5);
 
