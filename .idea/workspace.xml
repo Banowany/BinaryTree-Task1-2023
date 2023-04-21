@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Little correct finding the longest path">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java" afterDir="false" />
+    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Create tests for counting longest path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +70,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinaryTreeTest.countLongestPathInTreeWithToBranchesWhereRightIsShorter">
-    <configuration name="BinaryTreeTest.countLongestPathInSingleBranchTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BinaryTreeTest">
+    <configuration name="BinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +84,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BinaryTreeTest.countLongestPathInSingleBranchTree&quot;" />
+            <option value="&quot;org.example.BinaryTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -94,7 +94,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinaryTreeTest.countLongestPathInSingleNodeTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryTreeTest.countLeavesPathInEmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -107,7 +107,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BinaryTreeTest.countLongestPathInSingleNodeTree&quot;" />
+            <option value="&quot;org.example.BinaryTreeTest.countLeavesPathInEmptyTree&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeTest" />
+        <item itemvalue="Gradle.BinaryTreeTest.countLeavesPathInEmptyTree" />
         <item itemvalue="Gradle.BinaryTreeTest.countLongestPathInTreeWithToBranchesWhereRightIsShorter" />
         <item itemvalue="Gradle.BinaryTreeTest.countLongestPathInTreeWithToBranchesWhereLeftIsShorter" />
         <item itemvalue="Gradle.BinaryTreeTest.countLongestPathInTreeWithToBranchesThatHaveTheSameLength" />
-        <item itemvalue="Gradle.BinaryTreeTest.countLongestPathInSingleBranchTree" />
-        <item itemvalue="Gradle.BinaryTreeTest.countLongestPathInSingleNodeTree" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681995276467</updated>
       <workItem from="1681995277083" duration="4453000" />
-      <workItem from="1682079967881" duration="3311000" />
+      <workItem from="1682079967881" duration="8811000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681995445747</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682081314807</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create tests for counting longest path">
+      <created>1682083655428</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682083655428</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +296,7 @@
     <MESSAGE value="Implement third method (equals method)" />
     <MESSAGE value="Little correct of Node and fast test in main" />
     <MESSAGE value="Little correct finding the longest path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little correct finding the longest path" />
+    <MESSAGE value="Create tests for counting longest path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create tests for counting longest path" />
   </component>
 </project>
