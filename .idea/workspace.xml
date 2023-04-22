@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Create tests for counting leaves and equals">
+    <list default="true" id="273916b0-2544-47e8-950f-b18f2d492a26" name="Changes" comment="Correct names of tests for counting leaves">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681995276467</updated>
       <workItem from="1681995277083" duration="4453000" />
-      <workItem from="1682079967881" duration="10108000" />
+      <workItem from="1682079967881" duration="11775000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681995445747</created>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682096995560</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Correct names of tests for counting leaves">
+      <created>1682097628454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682097628454</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +312,18 @@
     <MESSAGE value="Little correct finding the longest path" />
     <MESSAGE value="Create tests for counting longest path" />
     <MESSAGE value="Create tests for counting leaves and equals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create tests for counting leaves and equals" />
+    <MESSAGE value="Correct names of tests for counting leaves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct names of tests for counting leaves" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/BinaryTreeTest.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

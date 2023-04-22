@@ -25,12 +25,13 @@ public class BinaryTree
     private int countLongestPath(Node node)
     {
         if(node==null)
-            return -1;
+            return 0;
         return Math.max(countLongestPath(node.getLeft()), countLongestPath(node.getRight()))+1;
     }
     public int countLongestPath()
     {
-        return countLongestPath(root);
+        if (root==null) return 0;
+        return countLongestPath(root)-1;
     }
 
     public Node getRoot() {
@@ -44,7 +45,11 @@ public class BinaryTree
         if (thisNode == null || otherNode == null)
             return false;
         if (thisNode.getValue() == otherNode.getValue())
-            return equals(thisNode.getLeft(), otherNode.getLeft()) && equals(thisNode.getRight(), otherNode.getLeft());
+        {
+            var leftSubTreeIsTheSame = equals(thisNode.getLeft(), otherNode.getLeft());
+            var rightSubTreeIsTheSame = equals(thisNode.getRight(), otherNode.getRight());
+            return leftSubTreeIsTheSame && rightSubTreeIsTheSame;
+        }
         return false;
     }
     public boolean equals(BinaryTree binaryTree)
